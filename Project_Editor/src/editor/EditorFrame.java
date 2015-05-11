@@ -23,7 +23,7 @@ public class EditorFrame extends JFrame {
 	
 	
 	public EditorFrame(String title) {
-		super(title);//µ÷ÓÃ¸¸ÀàµÄ¹¹Ôì·½·¨
+		super(title);     //ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ì·½ï¿½ï¿½?????
 	    pack();	    
 	}
 	
@@ -41,7 +41,7 @@ public class EditorFrame extends JFrame {
 	    infoScrollPane=new JScrollPane(infoArea);
 	    infoArea.setEditable(false);
 	    
-	    editorSplitPane=new JSplitPane(JSplitPane.VERTICAL_SPLIT,box,infoScrollPane);//Ö»ÄÜÊÇÁ½¸öÈÝÆ÷ 
+	    editorSplitPane=new JSplitPane(JSplitPane.VERTICAL_SPLIT,box,infoScrollPane);//Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 	    editorSplitPane.setDividerSize(10);
 	    editorSplitPane.setDividerLocation(500);
 	    this.add(editorSplitPane);
