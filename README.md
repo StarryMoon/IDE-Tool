@@ -1,5 +1,5 @@
 # IDE-Tool
 a simple integrated development enviroment tool about java
 
-HI hunmans
+Hi humans
 the test project is stopped.
